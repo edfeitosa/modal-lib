@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { ModalComponent } from './components/modal.component';
 
-
-
 @NgModule({
   declarations: [
     ModalComponent
