@@ -1,24 +1,30 @@
 # Modal
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+Está library renderiza um modal com informações customizáveis, instalável para ser usado em diferentes projetos.
 
-## Code scaffolding
+## Pré-requisitos
 
-Run `ng generate component component-name --project modal` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project modal`.
-> Note: Don't forget to add `--project modal` or else it will be added to the default project in your `angular.json` file. 
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git][git-link], [Node.js][node-link] e [Angular CLI][angular-cli].
+Para edição do código, será necessário um editor de sua escolha.
 
-## Build
+## Rodando o projeto
 
-Run `ng build modal` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone este repositório
+2. Acesse o diretório do projeto no terminal/cmd (/mesas)
+3. Instale as dependências (npm install)
+4. Execute a aplicação localmente em modo de desenvolvimento (npm run start)
+5. O servidor iniciará na porta 4200 (acesse [http://localhost:4200][localhost-link])
 
-## Publishing
+## Versionamentos
 
-After building your library with `ng build modal`, go to the dist folder `cd dist/modal` and run `npm publish`.
+#### 1.0.0
+Configuração inicial do projeto, instalação das dependências e definição de estrutura dos diretórios.
 
-## Running unit tests
+## Copyright © 2023 / Eduardo Feitosa
 
-Run `ng test modal` to execute the unit tests via [Karma](https://karma-runner.github.io).
+O código presente no projeto é para estudos e demonstração de possibilidades no desenvolvimento, e apenas pessoas autorizadas poderão acessá-lo, utilizá-lo e alterá-lo.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[git-link]: https://git-scm.com
+[node-link]: https://nodejs.org/en/
+[angular-cli]: https://angular.io/cli
+[localhost-link]: http://localhost:4200
